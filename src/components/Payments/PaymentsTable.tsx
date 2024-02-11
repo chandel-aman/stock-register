@@ -40,7 +40,7 @@ const PaymentsTable: React.FC<Props> = ({ rows, isLoading }) => {
 
   const rowsPerPage = 19;
 
-  const handleChangePage = (event: unknown, page: number) => {
+  const handleChangePage = (_event: unknown, page: number) => {
     setPage(page - 1);
   };
 
